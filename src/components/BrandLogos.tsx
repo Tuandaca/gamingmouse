@@ -18,7 +18,7 @@ const BrandLogos = () => {
           {brands.map((brand) => (
             <div 
               key={brand} 
-              className="flex items-center justify-center hover:scale-110 transition-transform duration-300"
+              className="flex items-center justify-center hover:scale-110 transition-transform duration-300 cursor-pointer"
             >
               <span className="text-xl font-bold text-muted-foreground hover:text-foreground transition-colors">
                 {brand}
